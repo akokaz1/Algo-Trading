@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+
+  lab:
+    # https://jupyter-docker-stacks.readthedocs.io/en/latest/using/selecting.html
+    build: .
+    volumes:
+      - ./notebooks:/notebooks
+      - ./jupyter_notebook_config.py:/home/jovyan/.jupyter/jupyter_notebook_config.py
+    ports:
+      - "8889:8888"  
+    environment:
+      - JUPYTER_ENABLE_LAB=1
+      - GRANT_SUDO=yes
+    command: start.sh jupyter lab

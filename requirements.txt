@@ -1,0 +1,12 @@
+geopandas
+geopandas-postgis
+pint
+psycopg2
+scikit-plot
+shap
+xgboost
+openpyxl
+pyarrow
+pystan
+fbprophet
+textpack
