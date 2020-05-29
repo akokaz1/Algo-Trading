@@ -13,4 +13,6 @@ services:
     environment:
       - JUPYTER_ENABLE_LAB=1
       - GRANT_SUDO=yes
+    env_file:
+       - ./.env 
     command: start.sh jupyter lab

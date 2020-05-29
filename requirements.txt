@@ -10,3 +10,5 @@ pyarrow
 pystan
 fbprophet
 textpack
+pandas_datareader
+backtrader

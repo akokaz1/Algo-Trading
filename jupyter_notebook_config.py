@@ -136,7 +136,7 @@
 #  This option is intended to be used when the URL to display to the user cannot
 #  be determined reliably by the Jupyter notebook server (proxified or
 #  containerized setups for example).
-c.NotebookApp.custom_display_url = 'http://localhost:8888/'
+c.NotebookApp.custom_display_url = 'http://localhost:8889/'
 
 ## The default URL to redirect to from `/`
 #c.NotebookApp.default_url = '/tree'
