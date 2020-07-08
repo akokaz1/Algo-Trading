@@ -1,7 +1,4 @@
 geopandas
-geopandas-postgis
-pint
-psycopg2
 scikit-plot
 shap
 xgboost
@@ -12,3 +9,4 @@ fbprophet
 textpack
 pandas_datareader
 backtrader
+dataprep
