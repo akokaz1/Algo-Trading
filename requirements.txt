@@ -10,3 +10,5 @@ textpack
 pandas_datareader
 backtrader
 dataprep
+keras 
+tensorflow
