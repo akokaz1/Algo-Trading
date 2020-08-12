@@ -12,3 +12,4 @@ backtrader
 dataprep
 keras 
 tensorflow
+alpha_vantage
