@@ -5,11 +5,9 @@ xgboost
 openpyxl
 pyarrow
 pystan
-fbprophet
 textpack
 pandas_datareader
 backtrader
 dataprep
 keras 
-tensorflow
 alpha_vantage
