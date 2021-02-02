@@ -11,3 +11,6 @@ backtrader
 dataprep
 keras 
 alpha_vantage
+praw
+#get-all-tickers has an issue currently
+vader
