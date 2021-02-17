@@ -15,3 +15,4 @@ praw
 #get-all-tickers has an issue currently
 vader
 squarify
+yfinance
