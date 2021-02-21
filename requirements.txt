@@ -16,3 +16,5 @@ praw
 vader
 squarify
 yfinance
+plotly
+plotly-express
