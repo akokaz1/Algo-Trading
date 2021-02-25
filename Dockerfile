@@ -9,6 +9,7 @@ RUN jupyter labextension install jupyterlab-plotly@4.14.3
 
 # OPTIONAL: Jupyter widgets extension
 RUN jupyter labextension install @jupyter-widgets/jupyterlab-manager plotlywidget@4.14.3
+RUN pip install --user --upgrade git+https://github.com/twintproject/twint.git@origin/master#egg=twint
 USER root
 RUN apt-get update
 
