@@ -9,7 +9,8 @@ services:
       - ./notebooks:/notebooks
       - ./jupyter_notebook_config.py:/home/jovyan/.jupyter/jupyter_notebook_config.py
     ports:
-      - "8889:8888"  
+      - "8889:8888" 
+      - "8050:8050" 
     environment:
       - JUPYTER_ENABLE_LAB=1
       - GRANT_SUDO=yes

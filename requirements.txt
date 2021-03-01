@@ -18,3 +18,5 @@ squarify
 yfinance
 plotly
 plotly-express
+dash
+jupyter-dash
