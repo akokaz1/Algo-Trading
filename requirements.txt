@@ -20,3 +20,4 @@ plotly
 plotly-express
 dash
 jupyter-dash
+dash_bootstrap_components
