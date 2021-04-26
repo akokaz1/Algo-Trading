@@ -7,6 +7,7 @@ services:
     build: .
     volumes:
       - ./notebooks:/notebooks
+      - ~/.aws:/home/jovyan/.aws
       - ./jupyter_notebook_config.py:/home/jovyan/.jupyter/jupyter_notebook_config.py
     ports:
       - "8889:8888" 

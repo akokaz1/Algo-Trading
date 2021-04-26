@@ -21,3 +21,7 @@ plotly-express
 dash
 jupyter-dash
 dash_bootstrap_components
+boto3
+s3fs
+psycopg2-binary
+sqlalchemy
