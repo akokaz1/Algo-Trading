@@ -3,3 +3,4 @@
 .ipynb_checkpoints
 /notebooks/data/*
 /notebooks/scripts/wsb_scraper/*
+/notebooks/scripts/vit/*
